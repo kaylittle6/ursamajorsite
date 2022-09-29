@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+}
+
+header, footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-template-columns: min-content;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-rows: min-content;
+}
+
+.socialLinks, .copyRight {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

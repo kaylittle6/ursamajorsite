@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: lightgray;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main, footer, .borderbox {
+    background-color: black;
+    border: 1px solid #ff000f;
+    color: white;
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    height: min-content;
+}
+
+.socialLogo {
+    width: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.copyrightRemark {
+    font-size: x-small;
+}
+
+.borderbox {
+    background-color: lightgray;
+    color: black;
+}
+
+.bannerGreet {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Courgette', cursive;
+}
+
+.bannerName {
+    padding-top: 25px;
+    float: left;
+    font-size:x-large;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.bannerLogo > a img {
+    float: left;
+    width: 75px;
+    height: min-content;
+}
+
+.bigLogo {
+    margin-top: 100px;
+    float: right;
+    width: 250px;
+}
+
+.barButtons {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 25px;
+}
+
+.barButtons > li {
+    float: right;
+    border: #ff000f solid 1px;
+    border-right: none;
+    border-left: none;
+}
+
+li > a {
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.barButtons > .active > a {
+    color: #ff000f
+}
+
+li, a:hover {
+    color: #ff000f
+}
+
+.socialList {
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+}
+
+.socialList > li {
+    display: inline-block
+}
+
+.bannerEnd {
+    margin-top: 1000px;
+}
