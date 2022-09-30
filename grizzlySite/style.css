@@ -131,6 +131,10 @@ table, th, td {
     border-collapse: collapse;
 }
 
+th {
+    background-color: black;
+    color: white;
+
 td {
     text-align: left;
 }
