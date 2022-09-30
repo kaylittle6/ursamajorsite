@@ -1,11 +1,11 @@
 body {
     display: grid;
-    grid-template-columns: 15% auto 15%;
+    grid-template-columns: auto;
 }
 
-header, footer {
+header, footer, main {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-template-columns: min-content;
 }
 
@@ -17,5 +17,5 @@ footer {
 
 .socialLinks, .copyRight {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
 }
